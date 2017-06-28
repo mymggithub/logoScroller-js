@@ -1,5 +1,3 @@
-// JavaScript Document
-
 var maxSec = 2;
 var currentSec = 0;
 var total = 0;
