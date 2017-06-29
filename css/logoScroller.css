@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+.scroller_panels { display: none; }
+.scroller,.scroller noscript img {
+	text-align:left;
+	position: relative;
+	width: 700px;
+	height: 200px;
+	overflow: hidden;
+	margin: 0;
+	padding: 0px;
+	display: none;
+}
+.scroller_pics {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+.scroller_bar {
+	font-family: Arial;
+	color: #000;
+	font-size: 0.75em;
+	width: 700px;
+	margin: 0px;
+	padding: 15px 0px 10px 0px;
+	position: absolute;
+	top: 340px;
+	left: 0px;
+	background: url(../images/caption.png) 0px 0px;
+	background-repeat:no-repeat;
+	font-weight: bold;
+}
+.scroller_caption {
+	width: 410px;
+	padding: 0px 0px 0px 25px;
+}
+.scroller_bar h2 {
+	margin: 0px 0px 10px 0px;
+	font-size: 1.25em;
+	color: #000;
+}
+.scroller_bar p {
+	margin: 0px 0px 12px 0px;
+}
+.scroller_bar a {
+	color: #00F;
+	text-decoration: underline;
+}
+.scroller_bar a:hover { color: #fff; }
+.scroller_icon { float: left; margin-right: .5em; }
+.scroller_nav {
+	position: absolute;
+	width: 240px;
+	bottom: 22px;
+	right: 20px;
+	text-align: right;
+}
+.scroller_nav a {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	margin-left: .5em;
+	background: url(../images/nav_buttons.png) no-repeat 0px 0px;
+	cursor: pointer;
+}
+.scroller_nav a:hover { background-position: -25px 0px; }
+.scroller_nav a.selected { background-position: -50px 0px; }
